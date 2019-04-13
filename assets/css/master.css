@@ -18,21 +18,20 @@ html, body {
   height: 100%;
   display: inline-block;
   background-color: rgba(16, 20, 24, 0.94);
-  cursor: pointer;
-  position: relative;
 }
 
-#menu .toggle {
+#menu::before {
   width: 64px;
   height: 64px;
   background-color: #1E2125;
   z-index: 999;
+  content: "";
+  display: block;
   position: absolute;
   margin: auto;
   left: calc(25% - 32px);
   top: calc(50% - 32px);
   border-radius: 50%;
-  cursor: pointer;
 }
 
 #wrapper {
