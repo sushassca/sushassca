@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$("#menu").after().click(function() {
+$(".toggle").click(function() {
   console.log("asd");
 });
 
