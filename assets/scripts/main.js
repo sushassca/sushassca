@@ -11,7 +11,7 @@ $(".toggle").click(function() {
         animation = true;
     }, 600);
   } else {
-
+    
   }
 
 });
