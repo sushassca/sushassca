@@ -116,7 +116,7 @@ h1 {
   box-sizing: border-box;
 }
 .block{
-  width: 40%;
+  height: 50vh;
   background-color: white;
   transition: 0.6s;
   clip-path: polygon(5% 7%, 96% 9%, 97% 97%, 2% 93%);
@@ -126,6 +126,5 @@ h1 {
 .block:hover{
   clip-path: polygon(3% 3% , 97% 3% , 97% 97% , 3% 97%);
   cursor: pointer;
-  zoom: 1.5;
   opacity: 1;
 }
