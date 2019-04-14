@@ -124,7 +124,7 @@ h1 {
 }
 
 .block:hover{
-  clip-path: polygon(0 0 , 100% 0 , 100% 100% , 0 100%);
+  clip-path: polygon(3% 3% , 97% 3% , 97% 97% , 3% 97%);
   cursor: pointer;
   zoom: 1.5;
   opacity: 1;
